@@ -1,0 +1,29 @@
+# Runtime-generated data (recreated automatically by the app)
+attendance.db
+models/*.yml
+models/*.json
+logs/*.log
+logs/*.log.*
+exports/*.csv
+exports/*.jpg
+exports/*.png
+
+# Keep folder structure but ignore contents
+!models/.gitkeep
+!logs/.gitkeep
+!exports/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
