@@ -255,3 +255,7 @@ need to touch any other file to retune the system.
 | `No trained model found` on `recognize` | Register at least one student first. |
 | `No face detected` during registration | Use clearer, front-facing, well-lit photos; avoid heavy occlusion/extreme angles. |
 | Low recognition accuracy | Register more/varied photos per student, or lower `RECOGNITION_CONFIDENCE_THRESHOLD` in `src/config.py` cautiously (this raises false-accept risk). |
+
+# 13. Author
+
+Prince Goyal (24BAI10623)
